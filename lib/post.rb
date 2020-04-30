@@ -10,8 +10,8 @@ class Post
   def self.all 
     @@all
   end 
-end 
-
-
-  # def author_name
-  #  author.name if author
+  
+  def author_name
+   author.name if author
+ end
+ end
