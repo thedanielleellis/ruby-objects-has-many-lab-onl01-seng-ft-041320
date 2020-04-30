@@ -1,18 +1,3 @@
-class Author 
-  attr_accessor :name
-  @@all = []
-  
-  def initialize (name) 
-    @name = name
-    @@all << self 
-  end 
-  
-  def posts 
-    @posts = posts
-  end
-end 
-
-
 class Author
   attr_accessor :name
 
